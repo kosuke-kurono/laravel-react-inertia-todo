@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+th{
+    text-align: left;
+}
+td{
+    padding: 5px 0;
+    border-bottom: 1px dotted rgb(153, 153, 153);;
+}
+.todo_title{
+    width: 25%;
+}
+.todo_content{
+    width: 60%;
+}
+.todo_delete{
+    width: 5%;
+    text-align: center;
+}
+.todo_edit{
+    width: 5%;
+    text-align: center;
+}
+.bg-red-400:hover {
+  background-color: rgb(255, 0, 0);
+}
+.bg-blue-400:hover {
+  background-color: rgb(0, 0, 255);
+}
+.bg-green-500:hover {
+  background-color: rgb(0, 130, 0);
+}
+.bg-gray-600:hover{
+background-color: black;
+}
+.create{
+    margin-bottom: 10px;
+}
+.create_btn{
+    margin-bottom: 20px;
+}
+.complete_title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(115, 115, 115);
+}
+.task{
+    background-color:#eafcdc !important;
+}
+.completed{
+    background-color:#dde9f4 !important;
+}
